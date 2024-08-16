@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lilita One',serif;
+
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body{
+   
+    justify-content: center;
+    background-color: #ffd700;
+    overflow-x: hidden;
+   
+    
+}
+
+
+header{
+    
+   
+    align-items: center;
+    width: 100%;
+    background-color: #000000;
+    
+}
+
+
+
+.navBar{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+    
+}
+
+.navBar li {
+    display: inline-block;
+    padding: 0px 15px;
+    color: #ffd700;
+}
+
+
+.navBar li a{
+    padding: 5PX;
+    transition: all 0.3s ease 0s;
+    color: #ffd700;
+}
+
+.navBar li a:hover{
+    background-color: #ffd700;
+    color: black;
+}
+
+button{
+    padding: 10px 10px;
+    background-color: #000000;
+    border-color: #ffd700;
+    color: #ffd700;
+    font-size: 1rem;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #ffd700;
+    color: black;
+}
+
+.brand{
+    position: relative;
+    padding-top: 15px;
+    padding-left: 38%;
+    color: black;
+    -webkit-text-stroke: 0.05px #ffd700;
+    font-size: 3rem;
+    transition: all 0.3s ease 0s;
+    
+ 
+}
+.brand:hover{
+    color: #ffd700;
+    
+}
+.brandpig{
+    position: relative;
+    padding-left: 38%;
+    color: #ffd700;
+    font-size: 3rem;
+    font-weight: 100;
+    -webkit-text-stroke: 0.5px #000000;
+    transition: all 0.3s ease 0s;
+
+}
+.brandpig:hover{
+    color: black;
+    -webkit-text-stroke: 1px #ffd700;
+    
+}
+
+.aboutBox{
+    
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Courier New', Courier, monospace;
+    flex-wrap: wrap;
+    gap: 3rem;
+    
+
+}
+
+.box1{
+    position: relative;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+    place-content: center;
+    text-align: center;
+
+}
+
+.box1 h1{
+    position: relative;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    
+}
+
+.box1 p{
+    position: relative;
+    line-height: 30px;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.chefBox{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+
+}
+
+.chefBox1{
+    position: relative;
+}
+
+.chefBox1 img{
+    position: relative;
+
+}
+/*footer*/
+footer{
+    background-color: black;
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+
+.socialicon{
+    display: flex;
+    justify-content: center;
+}
+
+.socialicon a{
+    text-decoration: none;
+    padding: 10px ;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialicon a i{
+    font-size: 2rem;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialicon a:hover{
+    background-color: #272727;
+    transition: 0.5s;
+}
+
+.socialicon a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerBottom{
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}

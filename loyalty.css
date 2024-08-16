@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lilita One',serif;
+
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body{
+   
+    justify-content: center;
+    background-color: #ffd700;
+    overflow-x: hidden;
+   
+    
+}
+
+
+header{
+    
+   
+    align-items: center;
+    width: 100%;
+    background-color: #000000;
+    
+}
+
+
+
+.navBar{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+    
+}
+
+.navBar li {
+    display: inline-block;
+    padding: 0px 15px;
+    color: #ffd700;
+}
+
+
+.navBar li a{
+    padding: 5PX;
+    transition: all 0.3s ease 0s;
+    color: #ffd700;
+}
+
+.navBar li a:hover{
+    background-color: #ffd700;
+    color: black;
+}
+
+button{
+    padding: 10px 10px;
+    background-color: #000000;
+    border-color: #ffd700;
+    color: #ffd700;
+    font-size: 1rem;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #ffd700;
+    color: black;
+}
+
+.brand{
+    position: relative;
+    padding-top: 15px;
+    padding-left: 38%;
+    color: black;
+    -webkit-text-stroke: 0.05px #ffd700;
+    font-size: 3rem;
+    transition: all 0.3s ease 0s;
+    
+ 
+}
+.brand:hover{
+    color: #ffd700;
+    
+}
+.brandpig{
+    position: relative;
+    padding-left: 38%;
+    color: #ffd700;
+    font-size: 3rem;
+    font-weight: 100;
+    -webkit-text-stroke: 0.5px #000000;
+    transition: all 0.3s ease 0s;
+
+}
+.brandpig:hover{
+    color: black;
+    -webkit-text-stroke: 1px #ffd700;
+    
+}
+
+.horiline{
+    width: 700px;
+    height: 2px;
+    background-color: black;
+}
+
+
+
+
+.loyaltyBox1{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    gap: 3rem;
+    line-height: 40px;
+    
+}
+
+.loyaltyh1{
+    font-size: 5rem;
+    font-family: 'Black Ops One';
+    font-weight: lighter;
+}
+
+.loyaltyh2{
+    font-size: 2rem;
+    font-family: 'Black Ops One';
+    font-weight: lighter;
+    
+}
+
+.loyaltyh3{
+    font-size: 3rem;
+    font-family: 'Black Ops One';
+    font-weight: lighter;
+    
+}
+
+.loyaltyp{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Black Ops One';
+    line-height: 30px;
+    font-weight: lighter;
+    
+}
+
+.loyalty2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+    position: relative;
+
+}
+
+
+.loyaltyBox2 img{
+    position: relative;
+    width: 700px;
+
+}
+
+
+
+
+
+
+
+/*footer*/
+footer{
+    background-color: black;
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+
+.socialicon{
+    display: flex;
+    justify-content: center;
+}
+
+.socialicon a{
+    text-decoration: none;
+    padding: 10px ;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialicon a i{
+    font-size: 2rem;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialicon a:hover{
+    background-color: #272727;
+    transition: 0.5s;
+}
+
+.socialicon a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerBottom{
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}

@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lilita One',serif;
+
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body{
+   
+    justify-content: center;
+    background-color: #ffd700;
+    overflow-x: hidden;
+   
+    
+}
+
+
+
+
+header{
+    
+   
+    align-items: center;
+    width: 100%;
+    background-color: #000000;
+    
+}
+
+
+
+.navBar{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+    
+}
+
+.navBar li {
+    display: inline-block;
+    padding: 0px 15px;
+    color: #ffd700;
+}
+
+
+.navBar li a{
+    padding: 5PX;
+    transition: all 0.3s ease 0s;
+    color: #ffd700;
+}
+
+.navBar li a:hover{
+    background-color: #ffd700;
+    color: black;
+}
+
+button{
+    padding: 10px 10px;
+    background-color: #000000;
+    border-color: #ffd700;
+    color: #ffd700;
+    font-size: 1rem;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: #ffd700;
+    color: black;
+}
+
+.brand{
+    position: relative;
+    padding-top: 15px;
+    padding-left: 38%;
+    color: black;
+    -webkit-text-stroke: 1px #ffd700;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+
+.brand:hover{
+    color: #ffd700;
+    
+}
+
+.brandpig{
+    position: relative;
+    padding-left: 38%;
+    color: #ffd700;
+    font-size: 3rem;
+    font-weight: 100;
+    -webkit-text-stroke: 1px #000000;
+    transition: all 0.3s ease 0s;
+
+}
+
+.brandpig:hover{
+    color: black;
+    -webkit-text-stroke: 1px #ffd700;
+    
+}
+
+
+.menuBox{
+    
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Courier New', Courier, monospace;
+    flex-wrap: wrap;
+    gap: 3rem;
+    
+
+}
+
+.box1{
+    position: relative;
+    align-items: center;
+    width: 500px;
+    height: 700px;
+    place-content: center;
+    text-align: center;
+
+}
+
+.box1 h1{
+    position: relative;
+    padding: 20px;
+    font-size: 3rem;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    
+}
+
+.box1 p{
+    position: relative;
+    line-height: 30px;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.button2 button{
+    padding: 10px 10px;
+    background-color: #ffd700;
+    border-color: black;
+    color: black;
+    font-size: 1rem;
+    transition: all 0.3s ease 0s;
+}
+
+.button2 button:hover{
+    background-color: black;
+    color: #ffd700;
+}
+
+.bbqh1{
+    font-size: 1.5rem;
+    font-family: 'Black Ops One';
+ }
+ 
+.bbqp{
+ 
+    font-family: 'Black Ops One';
+}
+
+.horiline{
+    width: 700px;
+    height: 1px;
+    background-color: black;
+}
+  
+
+.bbqBox{
+    padding-left: 170px;
+    padding-right: 170px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    gap: 3rem;
+    line-height: 40px;
+    
+}
+
+.bbqbox1{
+   
+    position: relative;
+    width: 450px;
+    height: 650px;
+
+
+}
+
+.bbqbox1 img{
+    position: relative;
+  
+    width: 500px;
+    
+}
+
+.bbqbox1 h1{
+    position: relative;
+    font-weight: lighter;
+    font-family: 'Black Ops One';
+    
+}
+
+
+
+.bbqbox2{
+    
+    position: relative;
+    width: 450px;
+    height: 650px;
+   
+
+}
+
+.bbqbox2 img{
+    position: relative;
+    width: 500px;
+    
+}
+
+.bbqbox2 h1{
+    position: relative;
+    font-weight: lighter;
+    font-family: 'Black Ops One';
+
+    
+}
+
+.platterBox{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    line-height: 40px;
+    
+}
+
+.platterbox1{
+    
+    position: relative;
+    width: 500px;
+    height: 850px;
+   
+
+}
+
+.platterbox1 img{
+    position: relative;
+    width: 500px;
+    
+}
+
+.platterbox1 h1{
+    position: relative;
+    font-weight: lighter;
+    font-family: 'Black Ops One';
+
+    
+}
+
+.platterbox1 p{
+    position: relative;
+    font-size: 12px;
+    font-family: 'Black Ops One';
+    line-height: 10px;
+
+    
+}
+
+.sandwichBox{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    line-height: 40px;
+    
+}
+
+.sandwichbox1{
+    
+    position: relative;
+    width: 500px;
+    height: 850px;
+   
+
+}
+
+.sandwichbox1 img{
+    position: relative;
+    width: 500px;
+    
+}
+
+.sandwichbox1 h1{
+    position: relative;
+    font-weight: lighter;
+    font-family: 'Black Ops One';
+
+    
+}
+
+.sandwichbox1 p{
+    position: relative;
+    font-size: 12px;
+    font-family: 'Black Ops One';
+    line-height: 10px;
+
+    
+}
+
+
+
+footer{
+    background-color: black;
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+
+.socialicon{
+    display: flex;
+    justify-content: center;
+}
+
+.socialicon a{
+    text-decoration: none;
+    padding: 10px ;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialicon a i{
+    font-size: 2rem;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialicon a:hover{
+    background-color: #272727;
+    transition: 0.5s;
+}
+
+.socialicon a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerBottom{
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
